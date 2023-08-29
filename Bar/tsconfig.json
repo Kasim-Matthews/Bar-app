@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "noEmitOnError": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "target": "es5",
+    "jsx": "react"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "files": [
+    "app.tsx",
+    "./views/home.tsx",
+    "./views/login.tsx",
+    "./views/order.tsx",
+    "./views/components/navbar.tsx",
+    "./views/components/footer.tsx"
+  ]
+}

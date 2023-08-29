@@ -1,0 +1,281 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #f7f5f2;
+}
+
+nav {
+    color: #E5B361;
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #808080;
+    display: flex;
+    align-content: center;
+    position: relative;
+    background-color:white;
+}
+
+.website-name{
+    top:-45%;
+    left:20%;
+    position:absolute;
+    font-size:30px;
+    font-weight: 800;
+}
+
+.navigation-buttons {
+    color:black;
+    display:flex;
+    gap:15px;
+    list-style:none;
+    margin-left:1150px;
+    float:right;
+    
+}
+.navigation-buttons >li{
+    float:left;
+    font-size:14px;
+    letter-spacing:1px;
+    font-weight:800;
+    cursor:pointer;
+}
+
+.home-image{
+    width:100%;
+    filter:brightness(50%);
+    height:800px;
+    
+}
+.image-section{
+    position:relative;
+    text-align:center;
+    color:white;
+
+}
+
+.center-image{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.center-image--text{
+    font-size:25px;
+    line-height:25px;
+    font-weight:lighter;
+}
+
+
+.center-image--header {
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 130px;
+}
+
+.columns{
+    float:left;
+    width:30.3%;
+    padding:28px;
+}
+
+.columns--list{
+    list-style:none;
+    border:1px solid #eee;
+    margin:0;
+    padding:0;
+}
+.columns--header {
+    background-color: #E5B361;
+    color: white;
+    font-size: 35px;
+}
+.columns--list > li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+}
+.columns--text{
+    background-color:white;
+}
+
+.regular-footer {
+    position: absolute;
+    bottom: -200px;
+    left: 0;
+    right: 0;
+    background: #E5B361;
+    height: auto;
+    padding-top: 20px;
+    width: 99.1vw;
+    color: white;
+    border-bottom: 1px solid #eee;
+}
+
+.footer--content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    text-align:center;
+}
+
+.footer--nav {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.go-to-order {
+    background-color: white;
+    padding: 10px 24px;
+    border: none;
+    color: black;
+    border-radius: 5px;
+}
+
+    .go-to-order:hover{
+        background-color:lightgray;
+    }
+
+    .go-to-order:active {
+        background-color: lightgray;
+        box-shadow: 0 5px #666;
+        transform: translateY(4px);
+    }
+
+
+
+.form-parent {
+    text-align: center;
+    max-width: 1110px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.form-login {
+    width: 450px;
+    height: auto;
+    min-height: 500px;
+    margin: 10% auto;
+    border-radius: 5px;
+    background-image: linear-gradient(225deg,white 85%, #E5B361 15%);
+
+    padding: 2%;
+    box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+}
+.form-header{
+    margin:2% auto 10% auto;
+    text-align:center;
+    font-size:250%;
+    height:125px;
+    
+}
+    .form-header > h2 {
+        border-bottom: 1px solid #eee;
+    }
+    .form-header > p {
+        font-size: 13px;
+    }
+
+input{
+    width:400px;
+    border:1px solid #eee;
+    border-radius:5px;
+    height:40px;
+    font-size:14px;
+    padding-left:10px;
+}
+
+.row-spacer{
+    padding:0px 0px 20px 0px;
+}
+
+.login {
+    background-color: white;
+    padding: 10px 24px;
+    border: 1px solid #eee;
+    color: black;
+    border-radius: 5px;
+}
+
+
+    .login:hover {
+        cursor: pointer;
+        background-color: lightgray;
+    }
+
+.login-footer {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    right: 0;
+    background: #E5B361;
+    height: auto;
+    padding-top: 20px;
+    width: 99.1vw;
+    color: white;
+    border-bottom: 1px solid #eee;
+}
+.ice{
+    width:15px;
+}
+
+.form-header2 {
+    margin: 2% auto 10% auto;
+    text-align: center;
+    font-size: 250%;
+    height: 140px;
+}
+
+    .form-header2 > h2 {
+        border-bottom: 1px solid #eee;
+    }
+
+    .form-header2 > p {
+        font-size: 13px;
+    }
+
+.bartender-table {
+    max-width: 1110px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
+
+table, th, td {
+    border: 1px solid lightgray;
+    border-collapse: collapse;
+}
+
+table{
+    width:100%;
+}
+
+th{
+    font-weight:bold;
+    text-align:center;
+    font-size:20px;
+}
+
+th, td {
+    padding:5px;
+}
+
+td{
+    font-size:16px;
+    text-align:center;
+}
+
+.table-title{
+    border-bottom: 1px solid #eee;
+    font-size:30px;
+    padding-top:20px;
+}
